@@ -12,7 +12,7 @@ def show_frame(frame):
 
 
 def draw_sqare(frame, color):
-        cv2.rectangle(frame, (x, y), (x + w, y + h), color, 2)
+    cv2.rectangle(frame, (x, y), (x + w, y + h), color, 2)
 
 
 def get_cascades():
